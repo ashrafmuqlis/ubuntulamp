@@ -25,6 +25,7 @@ php -v
 sudo nano /var/www/html/index.php
 
 #include the code below into index.php and save
+  
 "<?php
 phpinfo();"
 
