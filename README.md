@@ -25,8 +25,8 @@ php -v
 sudo nano /var/www/html/index.php
 
 #include the code below into index.php and save
-<?php
-phpinfo();
+"<?php
+phpinfo();"
 
 #configure apache index.* precedence. insert index.php after DirectoryIndex
 sudo nano /etc/apache2/mods-enabled/dir.conf
