@@ -6,7 +6,7 @@ sudo apt install apache2
 
 #test with curl, output is html source
 
-curl http://localhost or curl http://<<machine-ip-address>>
+curl http://localhost or curl http://vaagrant-vm-ip
 
 ## MySQL Server
   
@@ -17,6 +17,8 @@ sudo mysql
 #set mysql root password to Mysqlroot123!
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Mysqlroot123!';
 exit;
+
+## PHP Library
 
 sudo apt install php libapache2-mod-php php-mysql
 
