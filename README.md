@@ -42,3 +42,5 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 #test with curl, output is php info page
 
 curl http://localhost or curl http://<<machine-ip-address>>
+
+Test this box with different PHP frameworks and applications.
