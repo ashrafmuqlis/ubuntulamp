@@ -11,6 +11,7 @@ sudo apt install mysql-server
 
 sudo mysql 
 
+
 # set mysql root password to Mysqlroot123!
 > ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Mysqlroot123!';
 > exit;
@@ -29,7 +30,6 @@ phpinfo();
 
 #configure apache index.* precedence. insert index.php after DirectoryIndex
 sudo nano /etc/apache2/mods-enabled/dir.conf
-
 
 #test with curl, output is php info page
 curl http://localhost or curl http://<<machine-ip-address>>
