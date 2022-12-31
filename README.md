@@ -39,6 +39,9 @@ phpinfo();"
 
 sudo nano /etc/apache2/mods-enabled/dir.conf
 
+#restart apache2
+sudo systemctl reload apache2.service
+
 #test with curl, output is php info page
 
 curl http://localhost or curl http://<<machine-ip-address>>
